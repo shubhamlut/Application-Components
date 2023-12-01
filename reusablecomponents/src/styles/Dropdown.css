@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.dropdown {
+  width: 15vh;
+  /* background-color: rgb(228, 228, 228); */
+  position: relative;
+  z-index: 2;
+}
+
+.dropdown-icon {
+  height: 30px;
+}
+
+.dropdown-link {
+  height: 30px;
+}
+
+.dropdown-content {
+  margin-top: 11px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  /* background-color: aliceblue; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: row;
+  border: 0.5px solid grey;
+  gap: 20px;
+}
+
+.dropdown-btn {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.Navbarcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 40px;
+  /* margin: 0 20px 0 20px; */
+  background-color: rgb(221, 227, 237);
+  color: rgb(0, 0, 0);
+  font-family: "Nunito", sans-serif;
+ 
+}
+
+.Navbar-logo {
+  background-color: aliceblue;
+}
+
+.Navbar-options {
+  display: flex;
+  flex-direction: row;
+  gap: 66px;
+  padding-right: 10px;
+  font-weight: bolder;
+  z-index: 1;
+  position: relative;
+  height: 23px;
+  cursor: pointer;
+}
+
+.dp {
+  position: relative;
+  z-index: 2;
+}
