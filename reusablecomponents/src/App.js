@@ -4,6 +4,8 @@ import Loginscreen from "./components/Loginscreen";
 import Navbar from "./components/Navbar";
 import Modal from "./components/Modal";
 import Grid from "./components/Grid";
+import Section from "./components/Section";
+import Card from "./components/Card";
 
 function App() {
 
@@ -49,7 +51,12 @@ function App() {
           btnTwoLabel="Yes"
         /> */}
 
-        <Grid data={tableData}/>
+        {/* <Grid data={tableData}/> */}
+
+        {/* <Section data={tableData}/> */}
+
+        <Card/>
+        
       </header>
     </div>
   );
