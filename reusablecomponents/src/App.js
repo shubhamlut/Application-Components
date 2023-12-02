@@ -6,37 +6,37 @@ import Modal from "./components/Modal";
 import Grid from "./components/Grid";
 import Section from "./components/Section";
 import Card from "./components/Card";
+import VideoSection from "./components/VideoSection";
 
 function App() {
-
   const tableData = [
     {
       id: 1212,
       name: "Shubham Lutade",
       age: "30",
       address: "Pune",
-      button:<button>Test</button>
+      button: <button>Test</button>,
     },
     {
       id: 334,
       name: "Anaysha Lutade",
       age: "30",
       address: "Pune",
-      button:<button>Test</button>
+      button: <button>Test</button>,
     },
     {
       id: 34343423,
       name: "Shreyas Lutade",
       age: "30",
       address: "Pune",
-      button:<button>Test</button>
+      button: <button>Test</button>,
     },
     {
       id: 12323212,
       name: "Bhushan Lutade",
       age: "30",
       address: "Pune",
-      button:<button>Test</button>
+      button: <button>Test</button>,
     },
   ];
   return (
@@ -55,8 +55,11 @@ function App() {
 
         {/* <Section data={tableData}/> */}
 
-        <Card/>
-        
+        {/* <Card/> */}
+
+        <VideoSection/>
+        <VideoSection/>
+        <VideoSection/>
       </header>
     </div>
   );

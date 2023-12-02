@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="Navbarcontainer">
         <div className="Navbar-logo">
-          <img src="../logo.png" alt="Navbar Logo" />
+          <img src="/Users/shubhamlutade/Documents/ReactJs Projects/Application-Components/reusablecomponents/src/styles/logo.png" alt="Navbar Logo" />
         </div>
         <div className="Navbar-options">
           <span>
