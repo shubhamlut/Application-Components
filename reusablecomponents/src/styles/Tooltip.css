@@ -1,0 +1,41 @@
+/* .Tooltip{
+
+width: 400px;
+height: 200px;
+background-color: aqua;
+}
+
+.tooltipHeader{
+
+
+}
+
+.tooltipContent{
+
+} */
+
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .tooltip {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 265px;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+    width: 500px;
+  }
+  
+  .tooltip-container:hover .tooltip {
+    display:block
+  }
+  

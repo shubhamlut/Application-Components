@@ -7,6 +7,8 @@ import Grid from "./components/Grid";
 import Section from "./components/Section";
 import Card from "./components/Card";
 import VideoSection from "./components/VideoSection";
+import Tooltip from "./components/Tooltip";
+import Footer from "./components/Footer";
 
 function App() {
   const tableData = [
@@ -57,9 +59,9 @@ function App() {
 
         {/* <Card/> */}
 
-        <VideoSection/>
-        <VideoSection/>
-        <VideoSection/>
+        {/* <VideoSection/> */}
+        <Tooltip/>
+       <Footer/>
       </header>
     </div>
   );

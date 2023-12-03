@@ -12,8 +12,8 @@
   border-bottom: 1px solid #dddddd;
 }
 
-.VideoSection :hover{
-    cursor: pointer;
+.VideoSection :hover {
+  cursor: pointer;
 }
 
 .vdoSectionColOne {
@@ -37,11 +37,14 @@
 }
 
 .videoDesc {
+  margin-top: 5px;
   font-size: medium;
   font-weight: lighter;
+  color: rgb(57, 56, 56);
 }
 
 .videoMetadata {
+  margin-top: 7px;
 }
 
 .authorName {

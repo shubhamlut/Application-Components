@@ -1,0 +1,26 @@
+.footer {
+  background-color: #333;
+  color: #dddd;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 30px;
+}
+
+.footerColOne {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.footerColTwo {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
