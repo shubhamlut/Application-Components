@@ -9,6 +9,7 @@ import Card from "./components/Card";
 import VideoSection from "./components/VideoSection";
 import Tooltip from "./components/Tooltip";
 import Footer from "./components/Footer";
+import NavbarTwo from "./components/NavbarTwo";
 
 function App() {
   const tableData = [
@@ -44,7 +45,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
+        <NavbarTwo/>
         {/* <Loginscreen></Loginscreen>
         <Modal
           title="Please confirm"
@@ -58,8 +60,10 @@ function App() {
         {/* <Section data={tableData}/> */}
 
         {/* <Card/> */}
+       
 
-        {/* <VideoSection/> */}
+
+        <VideoSection/>
         <Tooltip/>
        <Footer/>
       </header>
